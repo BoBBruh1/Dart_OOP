@@ -14,9 +14,7 @@ class Robot {
   }
 
   // Custom setter
-  void set weight(double percent) {
-    calcWeight = (height * percent) / 100;
-  }
+  void set weight(double percent) => calcWeight = (height * percent) / 100;
 }
 
 void main() {
